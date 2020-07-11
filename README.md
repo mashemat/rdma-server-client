@@ -8,6 +8,6 @@ g++ client.cpp -o client -libverbs -lrdmacm <br>
 
 ## Run the executables using:
 
-./server <PORT>
+./server PORT
   
-./client <SERVER-IP> <SERVER-PORT>
+./client SERVER-IP SERVER-PORT
